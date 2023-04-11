@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  /* font-family: 'Nunito', sans-serif; */
+  /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+  background-color: #70f3e2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+li {
+  padding: 15px;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
