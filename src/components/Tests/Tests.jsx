@@ -1,10 +1,11 @@
 import React from "react";
-// import styles from "../Tests/Tests.module.css"
+import styles from "../Tests/Tests.module.css"
 
-const Tests = ({test, index, onClickVariant}) => {
+const Tests = ({ test, index, onClickVariant }) => {
+    
     return (
         <>
-            <h1>{test.title}</h1>
+            <h1 className={styles.title}>{test.title}</h1>
             <ul>
                 {
                     test.variants.map((variant, index) => (

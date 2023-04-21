@@ -2,6 +2,7 @@ import { useState } from "react";
 import Tests from "./Tests/Tests";
 import Result from "./Result";
 import tests from "./../data/tests.json"
+import styles from "./Tests/Tests.module.css"
 
 export const App = () => {
   const [step, setStep] = useState(0);
@@ -19,8 +20,8 @@ export const App = () => {
   }
 
   return (
-    <div> {
-      step !== tests.length ? <Tests test={test} onClickVariant={onClickVariant} /> : <Result correct={correct}/>
+    <div className={styles.App}> {
+      step !== tests.length ? <Tests test={test} onClickVariant={onClickVariant} /> : <Result correct={correct} test={test}/>
     }
       
       

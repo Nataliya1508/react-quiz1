@@ -10,6 +10,19 @@ body {
   height: 100vh;
 }
 
+.App {
+  width: 500px;
+  border-radius: 30px;
+  padding: 40px;
+  background-color: #fff;
+  position: relative;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
 li {
   padding: 15px;
   border: 2px solid rgba(0, 0, 0, 0.1);
@@ -17,4 +30,29 @@ li {
   margin-bottom: 10px;
   cursor: pointer;
   transition: all 0.1s ease-in-out;
+}
+
+.title {
+  margin: 0;
+  text-align: center;
+}
+
+button {
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+  border-radius: 30px;
+  border: 0;
+  padding: 15px 30px;
+  font-size: 20px;
+  background-color: rgb(174, 243, 237);
+  color: rgb(0, 95, 87);
+  margin-top: 20px;
+  cursor: pointer;
+}
+.wrapperButton {
+  text-align: center;
+}
+
+img {
+  width: 150px;
 }
