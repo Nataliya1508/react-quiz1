@@ -56,3 +56,10 @@ button {
 img {
   width: 150px;
 }
+
+.progress {
+  height: 10px;
+  border-radius: 30px;
+  background-color: rgb(232, 232, 232);
+  margin-bottom: 25px;
+}
