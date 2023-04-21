@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../Tests/Tests.module.css"
+// import styles from "../Tests/Tests.module.css"
 
 const Tests = ({test, index, onClickVariant}) => {
     return (

@@ -6,31 +6,31 @@
     },
 
    {
-    "title": "Що робить функція React.createElement() ?",
+    "title": "Що робить функція React.createElement()?",
     "variants": ["Створює функцію, яка описує DOM-елемент", "Створює та повертає новий React-елемент певного типу", "Створює новий React-елемент певного типу", "Створює функцію, яка описує React-елемент" ],
     "correct": 1
     }, 
     
     {
-    "title": "Який метод використовується для відображення елемента в DOM дерево ?",
+    "title": "Який метод використовується для відображення елемента в DOM дерево?",
     "variants": ["ReactDOM.paint()", "ReactDOM.draw()", "ReactDOM.render()", "ReactDOM.show()" ],
     "correct": 2
     },
 
     {
-    "title": "Як вивести значення змінної name в JSX? ?",
+    "title": "Як вивести значення змінної name в JSX?",
     "variants": ["<p>{{name}}</p>", "<p>{%name%}</p>", "<p>[%name%]</p>", "<p>{name}</p>" ],
     "correct": 3
     }, 
 
     {
-    "title": "Який тип данних у параметра props ? ?",
+    "title": "Який тип данних у параметра props?",
     "variants": ["Масив", "Об'єкт", "Рядок", "Функція" ],
     "correct": 1
     },
 
     {
-    "title": "Як правильно передати пропс title в компонент Page ? ?",
+    "title": "Як правильно передати пропс title в компонент Page?",
     "variants": ["<Page title=Bob/>", "<Page title='Bob'/>", "<Page 'title'/>", "<Page title 'Bob'/>" ],
     "correct": 1
     },
